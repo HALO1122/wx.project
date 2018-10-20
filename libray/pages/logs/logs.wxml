@@ -1,0 +1,53 @@
+<!--logs.wxml-->
+
+<!-- 搜索栏 -->
+  <view class="search">
+    <view class='search-lf'>
+      <image class='search-icon' src='../images/channel.png'></image>
+      <text>分类</text>
+    </view>
+    <view class='search-rg' style='background:url(../images/search_logo.png) no-repeat 10px 9px;background-color:#f8f8f8;background-size:35rpx 35rpx'>
+      <input type='text' placeholder='查找书籍/作者/关键字'></input>
+    </view>
+  </view>
+<!-- 搜索栏结束 -->
+
+<!-- 轮播 -->
+  <view class='carousel'>
+    <swiper indicator-dots="false" indicator-active-color="white" autoplay="true" circular='true'>
+      <block wx:for="{{imgUrls}}" wxw:for="item">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+<!-- 轮播图结束 -->
+
+<!-- 分类导航 -->
+  <view class='classify'>
+    <view class='rank'><image src='../images/rank.png'></image></view>
+    <view class='band'>
+      <text>借阅榜</text>
+    </view>
+    <view class='band'>
+      <text>名著</text>
+    </view>
+    <view class='band'>
+      <text>小说</text>
+    </view>
+    <view class='band'>
+      <text>杂志</text>
+    </view>
+  </view>
+<!-- 分类导航结束 -->
+
+<view class='exhibit'>
+  <image src='../images/ja.png'></image>
+</view>
+
+<view class='footer'>
+  <navigator open-type='switchTab' url='../Blist/Blist'>
+    <button>进入书城</button>
+  </navigator>
+</view>

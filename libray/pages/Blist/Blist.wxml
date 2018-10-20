@@ -1,0 +1,102 @@
+<view class='main'>
+  <view class='list'>平凡是生活的本色</view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/pfdsj.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:路遥</text>
+      </view>
+    </block>
+    <navigator url='./read/read' open-type='navigate'>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/bngd.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:马尔克斯</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/mtswz.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:大卫.塞林格</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/gt.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:特洛夫斯基</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/ampj.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:简.奥斯丁</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/lryh.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:海鸣威</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+    <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/bdr.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:迈克福尔</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/jyzhd.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:东野圭吾</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+  <view class='content'>
+    <block>
+      <view class='list-tt'><image src='../images/zl.jpg'></image></view>
+      <view class='list-ct'>
+        <text class='author'>作者:霍达</text>
+      </view>
+    </block>
+    <navigator url=''>
+      <text class='brief'>内容简介</text>
+    </navigator>
+  </view>
+</view>

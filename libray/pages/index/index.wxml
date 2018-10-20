@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="yx-photo">
+    <image src='../images/sy.jpg'></image>
+  </view>
+  <navigator url='../logs/logs' target="miniProject" hover-class='none'>
+    <view class="yx-msg">
+      <text class="user-motto">嘿 {{motto}}</text>
+    </view>
+  </navigator>
+</view>
+
+
+  <view class='yx-center'>
+    <view class='yx-pic p1'>
+      <image src='../images/index1.png'></image>
+      <text>查询馆</text>
+    </view>
+    <view class='yx-pic p2'>
+      <image src='../images/index2.png'></image>
+      <text>自习室</text>
+    </view>
+    <view class='yx-pic p3'>
+      <image src='../images/index4.png'></image>
+      <text>书架</text>
+    </view>
+    <view class='yx-pic p4'>
+      <image src='../images/index3.png'></image>
+      <text>书城</text>
+    </view>
+  </view>

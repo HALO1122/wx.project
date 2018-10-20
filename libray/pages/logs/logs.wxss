@@ -1,0 +1,89 @@
+/* 搜索栏样式 */
+.search{
+  background-color: #CCA088;
+  display: flex;
+  width: 100%;
+  height: 120rpx;
+  position: fixed;
+  top: 0;
+}
+.search-lf{
+  margin-left: 20px;
+}
+.search-icon{
+  width:40rpx;
+  height:30rpx;
+  background-size:100%;
+  margin-top:30rpx;
+}
+.search text{
+  font-size: 10px;
+  color: #fff;
+  display: flex;
+}
+.search-rg {
+  margin-left: 16px;
+  margin-top: 24rpx;
+  width:80%;
+  height:70rpx;
+  border-radius:40rpx;
+}
+.search-rg input{
+  width:80%;
+  height:70rpx;
+  line-height: 70rpx;
+  color:#898989;
+  border: 1px silid #898989;
+  font-size:28rpx;
+  margin-left:65rpx;
+}
+/* 轮播图样式 */
+.carousel{
+  margin-top:60px;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+
+/* 排行榜样式 */
+.classify{
+  width: 100%;
+  height: 60px;
+  margin-top: 18px;
+}
+.band{
+  display: inline-block;
+  padding: 16px;
+  color: #CCA088;
+}
+.rank{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.rank image{
+  width: 100%;
+  height: 100%;
+}
+
+.exhibit{
+  width: 100%;
+  height: 250px;
+}
+.exhibit image{
+  width: 100%;
+  height: 100%;
+}
+/* 底部 */
+.footer{
+  width: 100%;
+  height: 48px;
+  background-color: #B97A57;
+  position: fixed;
+  bottom: 0;
+}
+.footer button{
+  background-color: #B97A57;
+  color: #fff;
+}

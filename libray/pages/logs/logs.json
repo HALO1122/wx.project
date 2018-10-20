@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "查找书籍",
+  "navigationBarBackgroundColor": "#B97A57",
+  "tabBar": {
+    "selectedColor": "#FFC925",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/Blist/Blist"
+      },
+      {
+        "pagePath": "pages/logs/logs"
+      }
+    ]
+  }
+
+}

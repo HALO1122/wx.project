@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/news/news",
+    "pages/logs/logs",
+    "pages/Blist/read/read",
+    "pages/Blist/Blist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC925",
+    "navigationBarTitleText": "Library",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "selectedColor": "#FFC925",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "图书馆",
+        "iconPath": "pages/images/allicon.png",
+        "selectedIconPath": "pages/images/a1.png"
+      },
+      {
+        "pagePath":"pages/Blist/Blist",
+        "text":"名著推荐",
+        "iconPath":"pages/images/open.png",
+        "selectedIconPath":"pages/images/o1.png"
+      },{
+        "pagePath": "pages/news/news",
+        "text": "小说杂志",
+        "iconPath": "pages/images/search.png",
+        "selectedIconPath": "pages/images/s1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+<view class='z-main'>
+  <view class='z-title'><text class='z-word'>青春文学</text></view>
+  <scroll-view scroll-y style="height: 280px;" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class='z-major'>
+      <view class='z-photo'>
+        <image src='../images/mmt.jpg'></image>
+      </view>
+      <view class='z-content'>
+        <text class='z-t1'>作者：大冰</text>
+        <text class='z-t2'>不要那么孤独,请相信,这个世界真的有人再过你想要的生活。愿你我带着最微博的行李和醉丰盛的自己在世间流浪。忽晴忽雨的江湖,祝你有梦为马,随处可栖。</text>
+      </view>
+    </view>
+    <view class='z-major'>
+      <view class='z-photo'>
+        <image src='../images/zjj.jpg'></image>
+      </view>
+      <view class='z-content'>
+        <text class='z-t1'>作者：张嘉佳</text>
+        <text class='z-t2'>写给我们所遇见的悲伤和希望,和路上从未断绝的一缕光。 如果你有时间打开,那情给我一个机会,陪你度过安静的阅读时光。</text>
+      </view>
+    </view>
+    <view class='z-major'>
+      <view class='z-photo'>
+        <image src='../images/wy.jpg'></image>
+      </view>
+      <view class='z-content'>
+        <text class='z-t1'>作者：晚情</text>
+        <text class='z-t2'>亲爱的,不必羡慕那些比你过的精彩的自由人,他们并不比你优秀,只是他们在自己的人生里有自己的想法和追求,并且有勇气坚持下去。</text>
+      </view>
+    </view>
+    <view class='z-major'>
+      <view class='z-photo'>
+        <image src='../images/nfzwy.jpg'></image>
+      </view>
+      <view class='z-content'>
+        <text class='z-t1'>作者：秋微</text>
+        <text class='z-t2'>学会与亲人、挚爱告别是我们一生的功课。总有些人，虽已不在身边，却给你力量。在你绝望、无助的日子里,是他们没有让我们放弃希望，不在孤独地行走。</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class='z-title'><text class='z-word'>杂志展示</text></view>
+  <view class='z-magazine'>
+    <movable-area class="sk-main">
+      <movable-view direction="horizontal" class='sk-list'>
+        <view class='zz-pic'><image src='../images/zz-5.jpg'></image></view>
+        <view class='zz-pic'><image src='../images/zz-2.jpg'></image></view>
+        <view class='zz-pic'><image src='../images/zz-3.jpg'></image></view>
+        <view class='zz-pic'><image src='../images/zz-4.png'></image></view>
+         <view class='zz-pic'><image src='../images/zz-1.jpg'></image></view>
+      </movable-view>
+    </movable-area>
+  </view>
+</view>

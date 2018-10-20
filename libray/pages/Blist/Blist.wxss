@@ -1,0 +1,39 @@
+page{
+  background-color: #ececec;
+}
+.content{
+  width: 32.8%;
+  float: left;
+  background-color: #fff;
+  border-left: 1px solid #33333346;
+  border-bottom: 1px solid #33333346;
+}
+.list{
+  width: 100%;
+  color: #FF7F27;
+  margin: 10px auto;
+  text-align: center;
+}
+.list-tt{
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+.list-tt image{
+  width: 100%;
+  height: 100%;
+}
+.list-ct{
+  width: 120px;
+  text-indent: 38rpx;
+}
+.author{
+  color: #333;
+  font-size: 13px;
+}
+.brief{
+  font-size: 14px;
+  font-weight: bold;
+  color: #FF7F27;
+  margin-left: 50rpx;
+}
